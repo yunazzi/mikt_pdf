@@ -1,0 +1,61 @@
+@media all and (max-width : 375px){
+    /* 모바일 (아이폰 x) 스타일 기술하는 부분 */
+    
+    /* 메인 */
+    .nav{display: flex;}
+
+    /* section01 */
+    #section01{margin: 50px auto;}
+    #section01 img{width: 100%;}
+    .section01_text{
+        top: 50%; display: flex; flex-direction:column; 
+        align-items: center; justify-content: center; align-content: center;
+    }
+    .section01_text>h1{font-size: 45px; letter-spacing: -3px;}
+    .section01_text>p{letter-spacing:0; font-size: 18px;}
+    .catalogue{width: 160px; height: 40px; line-height: 40px; margin-top: 18px; position: unset;}
+
+    /*banner_1*/
+    #banner_1{padding-top: 50px;}
+    .banner_title{font-size: 24px; padding-top: 150px; letter-spacing: -1.5px;}
+    .banner_subtitle{font-size: 18px; letter-spacing: -1px; margin: 5px 0 35px 0;}
+    .banner_content{text-align: center; font-size: 10px; margin-bottom: 50px;}
+    .banner_line{width: 90%;}
+
+    /*section02*/
+    #section02,#section04{width: 100%; flex-direction: column;}
+    .aside_line{margin: 25px auto;}
+
+    #section02 .section_right{margin-top: 50px; text-align: center;}
+    .section_right{margin-left: 0%;}
+    .aside_content>li{margin: auto 15px;}
+
+    /* secttion03 */
+    #section03{width: 100%; flex-direction: column-reverse;}
+    #section03 .section_left {margin-top: 50px; text-align: center;}
+    .aside_subtitle{margin: 5px 0 0 0;}
+    .aside_title{font-size: 16px;}
+    .aside_content{margin-top: 10px; font-size: 12px; line-height: 20px;}
+    .aside_top>.aside_content{letter-spacing: -1px;}
+    .aside_content>li:last-child{margin-right: 0;}
+    .aside_title{margin-top: 10px; letter-spacing: -0.5px;}
+
+    /* banner_2 */
+    #banner_2 .banner_title{padding-top: 0;}
+
+    /*secition04*/
+    #section04 .section_right{margin-top: 50px; text-align: center;}
+
+    /* banner_slider */
+    #banner_slider{width: 100%;}
+    .banner_textBox{line-height: 22px; top: 100%;}
+    .banner_textTitle{font-size: 16px;}
+    .banner_textContent{margin-top: 10px;}
+    .banner_textContent>li{margin-right: 20px; margin-top: 0; font-size: 12px;}
+}
+@media all and (max-width : 374px){
+    .section01_text{
+        top: 60%; display: flex; flex-direction:column; 
+        align-items: center; justify-content: center; align-content: center;
+    }
+}
