@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1525" height="1230" viewBox="0 0 1525 1230">
+  <defs>
+    <filter id="Shadow" x="0" y="0" width="1525" height="1230" filterUnits="userSpaceOnUse">
+      <feOffset dx="-20" dy="30" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="44" result="blur"/>
+      <feFlood flood-opacity="0.373"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.016" y1="0.018" x2="0.97" y2="0.963" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b5b5b5"/>
+      <stop offset="0.5" stop-color="#c6c6c6"/>
+      <stop offset="1" stop-color="#7b7b7b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="gray"/>
+      <stop offset="0.502" stop-color="#fff"/>
+      <stop offset="1" stop-color="gray"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.014" y1="0.5" x2="0.984" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b6b6b6"/>
+      <stop offset="0.502" stop-color="#f5f5f5"/>
+      <stop offset="1" stop-color="#b7b7b7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-color="#272727"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-color="#121212"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-9" x1="0.5" y1="1" x2="0.5" y2="0.164" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="1" stop-color="#35618f" stop-opacity="0.675"/>
+    </linearGradient>
+  </defs>
+  <g id="iPad_Pro" data-name="iPad Pro" transform="translate(-180 -170)">
+    <g transform="matrix(1, 0, 0, 1, 180, 170)" filter="url(#Shadow)">
+      <rect id="Shadow-2" data-name="Shadow" width="1261" height="966" rx="56" transform="translate(152 102)" fill="#fff"/>
+    </g>
+    <g id="iPad">
+      <rect id="사각형_3" data-name="사각형 3" width="1261" height="966" rx="56" transform="translate(332 272)" fill="url(#linear-gradient)"/>
+      <rect id="사각형_2" data-name="사각형 2" width="1253" height="958" rx="52" transform="translate(336 276)" fill="#141414"/>
+      <path id="사각형_4" data-name="사각형 4" d="M3,0H3A0,0,0,0,1,3,0V53a0,0,0,0,1,0,0H3a3,3,0,0,1-3-3V3A3,3,0,0,1,3,0Z" transform="translate(329 330)" fill="url(#linear-gradient-2)"/>
+      <path id="사각형_5" data-name="사각형 5" d="M2.984,0H41.016A2.984,2.984,0,0,1,44,2.984v0a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0v0A2.984,2.984,0,0,1,2.984,0Z" transform="translate(420 269)" fill="url(#linear-gradient-3)"/>
+      <path id="사각형_8" data-name="사각형 8" d="M2.984,0H41.016A2.984,2.984,0,0,1,44,2.984v0a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0v0A2.984,2.984,0,0,1,2.984,0Z" transform="translate(474 269)" fill="url(#linear-gradient-3)"/>
+      <rect id="사각형_1" data-name="사각형 1" width="1179" height="884" rx="14" transform="translate(373 313)" fill="#fff"/>
+    </g>
+    <g id="Camera" transform="translate(-56 2)">
+      <g id="그룹_3" data-name="그룹 3">
+        <circle id="타원_3" data-name="타원 3" cx="9" cy="9" r="9" transform="translate(402 683)" fill="url(#linear-gradient-5)"/>
+        <circle id="타원_4" data-name="타원 4" cx="8" cy="8" r="8" transform="translate(403 684)" fill="url(#linear-gradient-6)"/>
+      </g>
+      <g id="그룹_7" data-name="그룹 7" transform="translate(4 63.094)">
+        <circle id="타원_3-2" data-name="타원 3" cx="4.906" cy="4.906" r="4.906" transform="translate(402 683)" fill="url(#linear-gradient-5)"/>
+        <circle id="타원_4-2" data-name="타원 4" cx="4.361" cy="4.361" r="4.361" transform="translate(402.545 683.545)" fill="url(#linear-gradient-6)"/>
+        <path id="패스_9" data-name="패스 9" d="M406.606,684.849c-1.941-.109-2.969,2.216-2.888,2.929a2.689,2.689,0,0,0,2.888,1.769,3.9,3.9,0,0,0,2.937-2.05C410.063,686.609,408.547,684.958,406.606,684.849Z" transform="translate(0.308)" fill="url(#linear-gradient-9)"/>
+      </g>
+      <g id="그룹_4" data-name="그룹 4" transform="translate(0 91)">
+        <circle id="타원_3-3" data-name="타원 3" cx="9" cy="9" r="9" transform="translate(402 683)" fill="url(#linear-gradient-5)"/>
+        <circle id="타원_4-3" data-name="타원 4" cx="8" cy="8" r="8" transform="translate(403 684)" fill="url(#linear-gradient-6)"/>
+      </g>
+      <g id="그룹_5" data-name="그룹 5" transform="translate(3 122.884)">
+        <circle id="타원_3-4" data-name="타원 3" cx="6.116" cy="6.116" r="6.116" transform="translate(402 683)" fill="url(#linear-gradient-5)"/>
+        <circle id="타원_4-4" data-name="타원 4" cx="5.437" cy="5.437" r="5.437" transform="translate(402.68 683.68)" fill="url(#linear-gradient-6)"/>
+      </g>
+      <g id="그룹_6" data-name="그룹 6" transform="translate(7 38.719)">
+        <circle id="타원_3-5" data-name="타원 3" cx="2.281" cy="2.281" r="2.281" transform="translate(402 683)" fill="url(#linear-gradient-5)"/>
+        <circle id="타원_4-5" data-name="타원 4" cx="2.028" cy="2.028" r="2.028" transform="translate(402.253 683.253)" fill="url(#linear-gradient-6)"/>
+      </g>
+    </g>
+  </g>
+</svg>

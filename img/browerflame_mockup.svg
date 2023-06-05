@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="571" height="340.5" viewBox="0 0 571 340.5">
+  <defs>
+    <filter id="mask" x="0" y="22.5" width="571" height="391" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="mask-2" x="0" y="22.5" width="571" height="318" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3.5" result="blur-2"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fafbfc"/>
+    </linearGradient>
+    <filter id="Rectangle" x="7.5" y="0" width="556" height="36" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_1" data-name="그룹 1" transform="translate(-114.5 -97)">
+    <g id="Browser" transform="translate(125 100)">
+      <g transform="matrix(1, 0, 0, 1, -10.5, -3)" filter="url(#mask-2)">
+        <path id="mask-3" data-name="mask" d="M0,0H550a0,0,0,0,1,0,0V292a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(10.5 33)" fill="#f4f6f9"/>
+      </g>
+      <g id="Mask-4" data-name="Mask">
+        <g transform="matrix(1, 0, 0, 1, -10.5, -3)" filter="url(#Rectangle)">
+          <path id="Rectangle-2" data-name="Rectangle" d="M5,0H545a5,5,0,0,1,5,5V30a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(10.5 3)" fill="url(#linear-gradient)"/>
+        </g>
+        <text id="http:_uimint.com" data-name="http://uimint.com" transform="translate(54 20)" fill="#a1a1a1" font-size="10" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">http://yunakwon.com</tspan></text>
+        <circle id="Oval" cx="4" cy="4" r="4" transform="translate(36 11)" fill="#29cf42"/>
+        <circle id="Oval-2" data-name="Oval" cx="4" cy="4" r="4" transform="translate(23 11)" fill="#ffc02f"/>
+        <circle id="Oval-3" data-name="Oval" cx="4" cy="4" r="4" transform="translate(10 11)" fill="#ff554f"/>
+      </g>
+    </g>
+  </g>
+</svg>
