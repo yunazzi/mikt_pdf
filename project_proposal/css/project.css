@@ -1,0 +1,41 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+li{list-style: none;}
+a{text-decoration: none; color: #333;}
+body{color: #555; font-family: 'Noto Sans KR';}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+/*
+#section1{width: 1530px; height: 800px; margin: 100px auto;}
+.s1_nav>h1{color: #324764; font-size: 2em;}
+.yellow{background: #f3f3a5;}
+main{position: relative;}
+.s1_bg1{background: url(../img/section1_bg1.png); width: 490px; height: 670px;}
+.title{font-size: 1.2em; line-height: 40px;}
+
+.explain3 p{width: 310px; height: auto;}
+*/
+main{
+    display: flex; flex-wrap: wrap; flex-direction: column;
+    justify-content: center; align-items: center; align-content: center;
+}
+main h1{color: #324764; font-size: 2em;}
+.yellow{background: #f3f3a5;}
+
+#s1,#s2,#s3,#s4,#s5{margin: 100px auto;}
+
+.s1_nav,.s3_nav{justify-content: start; width: 250px; height: auto; margin: 50px 0;}
+#s1>img{justify-content: end;}
+#s2>img{flex: auto;}
+/*#s2>img{position: absolute; top: 900px; left: 12%;}*/
+
+.ppt{
+    width: 70px; height: 70px; background: rgba(0,0,0,0.7);
+    color: #fff; position: fixed; top: 50px; right: 30px;
+    text-align: center; border-radius: 70px; line-height: 70px;
+}
+.goTop{
+    position: fixed; bottom: 30px; right: 30px; display: none; 
+    width: 50px; height: 50px; background: #333; color: #fff; 
+    border-radius: 50px; text-align: center; line-height: 50px;
+    font-size: 1.2em;
+}

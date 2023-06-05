@@ -1,0 +1,14 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+#wrap{width: 1920px; height: 100%; margin: 0 auto;}
+.clear{clear: both;}
+li{list-style: none;}
+a{text-decoration: none;}
+/*header*/
+
+/*footer*/
+footer{width: 1920px; margin: 0 auto; padding-right: 100px; text-align: center;}
+footer ul{background: red; width: 100%; height: 110px;}
+footer a{color: #483834; float: left; font-size: 13px; margin-right: 40px; padding-right: 30px; height: 110px; line-height: 110px;}
+footer li:nth-child(5) a{color: #5fb34c; font-weight: bold;} 
+.footer_box{background: #f9f8f6; width: 100%; height: 110px;}
+#ft1{}

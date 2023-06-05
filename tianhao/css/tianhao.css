@@ -1,0 +1,167 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+li{list-style: none;}
+a{text-decoration: none; color: #333;}
+body{color: #333; font-family: 'Noto Sans KR';}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+   }
+   
+   @font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 700;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+   }
+   
+   @font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 300;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+   }
+   
+   .nanumbarungothic * {
+    font-family: 'NanumBarunGothic', sans-serif;
+   }
+   @font-face {font-family:'MalgunGothic'; src:url(font/MalgunGothic.eot);}
+
+    .malgun { font-family:'Malgun Gothic' !important; }
+
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+/*start!*/
+#wrap{width: 100%; height: auto; position: relative;}
+#header_top{font-family: 'NanumBarunGothic'; width: 1280px; height: 50px; line-height: 50px; margin: 0 auto;}
+#header_top ul{width: 230px; height: 15px; margin: 0 auto; float: right;}
+#header_top li{width: auto; height: 15px; font-size: 12px; float: left; margin-right: 10px;}
+#header_top li:last-child{margin-right: 0;}
+#header_bottom{font-family: 'MalgunGothic'; width: 1280px; height: 35px; line-height: 35px; margin: 0 auto;}
+/*.header_l{width: 50%;}*/
+.header_l ul{width: 220px; height: 35px; float: left;}
+.header_l li{width: 35px; height: 35px; margin-right: 10px; float: left;}
+.header_l li:last-child{margin-right: 0;}
+.top_logo{position: absolute; top: 5px; left: 50%;}
+
+.header_r{font-size: 12px;}
+.header_r ul{width: 220px; height: 35px; float: right;}
+.header_r li{width: auto; height: 35px; float: left; margin-right: 10px;}
+.header_r li:last-child{margin-right: 0;}
+
+/*gnb*/
+#header{width: 100%; height: 60px; background: #c1a79c; margin-top: 30px; position: relative;}
+#gnb{width: 100%; height: 60px; position: absolute; left: 0; bottom: 0; margin-left: 250px;}
+#gnb>li{width: 210px; height: 60px; text-align: center; line-height: 60px; float: left; position: relative;}
+#gnb>li>a{color: #dad6d6; font-family: 'NanumBarunGothic'; display: block; text-align: center;}
+#gnb>li>a:hover{color: #fff;}
+#gnb>li>a.on{color: #fff;}
+
+.sub_menu{position: absolute; top: 60px; left: 0; width: 100%; height: 250px; display: none; background: #c1a79c; z-index: 999;}
+.sub_menu>li>a{text-align: center; display: block; width: 210px; height: 50px; color: #dad6d6; background: #c1a79c;}
+.sub_menu>li>a:hover{color: #5fb34c;}
+/*opacity: 0;*/
+/*#main_img{background: url(../img/main_img1.jpg); width: 100%; height: 740px; position: relative;}*/
+#main_img{background: url(../img/banner_Img.png); width: 100%; height: 740px; position: relative; z-index: 9;}
+/*스위트 멜론 블렌디드*/
+.Beverage1{
+    background: url(../img/banner_1.png); width: 410px; height: 327px; 
+    position: absolute; top: 10%; left: 54%;
+    display: none;
+}
+/*라임피치 블렌디드*/
+.Beverage2{
+    background: url(../img/banner_2.png); width: 309px; height: 366px; 
+    position: absolute; top: 45%; left: 40%;
+    display: none;
+}
+/*브론드 서머라떼*/
+.Beverage3{
+    background: url(../img/banner_3.png); width: 307px; height: 319px; 
+    position: absolute; top: 42%; left: 68%;
+    display: none;
+}
+
+/*section01*/
+main{width: 100%; height: auto;}
+section{margin: 100px auto;}
+#section01{width: 100%; height: 1260px; position: relative;}
+#section01 h1{width: 1280px; margin: 0 auto; text-align: center;}
+.article_wrap{width: 1280px; margin: 0 auto;}
+/*빙수*/
+#box1{width: 450px; height: 340px; position: absolute; top: 140px; left: 680px;}
+.box1_1{width: 420px; height: 310px; background: #f9f8f6; position: relative;}
+.box1_in{width: 200px; height: 150px; padding-left: 30px; padding-top: 40px;}
+.box1_in h4{color: #35d593;}
+.box_txt{margin: 10px 0;}
+.more_btn{width: 100px; height: 26px;}
+.more_txt{display: inline; margin-left: 10px; width: 50px; height: 26px; position: absolute; left: 60px; margin-top: 4px; color: #ddd; font-weight: bold;}
+.productImg_slide{position: absolute; bottom: 0px; right: 0;}
+/*음료*/
+#box2{width: 290px; height: 500px; position: absolute; top: 140px; left: 65%;}
+.box2_1{width: 260px; height: 460px; background: #f9f8f6;}
+.box2_in{width: 200px; height: 150px; padding-left: 30px; padding-top: 40px;}
+.box2_in h4{color: #fc5ee8;}
+/*커피*/
+#box3{width: 260px; height: 430px; position: absolute; top: 42%; left: 25%;}
+.box3_1{width: 230px; height: 380px; background: #f9f8f6;}
+.box3_in{width: 200px; height: 150px; padding-left: 30px; padding-top: 40px;}
+.box3_in h4{color: #6f51f3;}
+/*빵*/
+#box4{width: 370px; height: 370px; position: absolute; top: 42%; left: 42%;}
+.box4_1{width: 320px; height: 310px; background: #f9f8f6;}
+.box4_in{width: 200px; height: 150px; padding-left: 30px; padding-top: 40px;}
+.box4_in h4{color: #f2901c;}
+/*기프트카드*/
+#box5{width: 315px; height: 265px; position: absolute; top: 56%; left: 65%;}
+.box5_1{width: 300px; height: 230px; background: #f9f8f6;}
+.box5_in{width: 200px; height: 150px; padding-left: 30px; padding-top: 40px;}
+.box5_in h4{color: #f35128;}
+/*md상품*/
+#box6{width: 390px; height: 290px; position: absolute; top: 76%; left: 42%;}
+.box6_1{width: 360px; height: 230px; background: #f9f8f6;}
+.box6_in{width: 200px; height: 150px; padding-left: 30px; padding-top: 40px;}
+.box6_in h4{color: #ffde01;}
+
+/*section02*/
+#section02{width: 100%; height: auto; margin: 100px 0;}
+.s2_bannerWrap{width: 1280px; height: auto; margin: 0 auto;}
+.s2_banner1{float: left; margin-right: 20px;}
+.s2_bannerWrap h3{text-align: center; margin-bottom: 50px;}
+
+/*section03*/
+#section03{width: 100%; height: auto; margin-bottom: 100px;}
+#section03 h3{text-align: center;}
+#section03 ul{width: 410px; height: 70px; margin: 0 auto; margin-top: 50px;}
+#section03 li{width: 66px; height: 65px; float: left; margin-right: 20px;}
+#section03 li:last-child{margin-right: 0;}
+
+/*footer*/
+footer{width: 100%; height: auto; border-top: 0.5px solid #5fb34c;}
+.policy{width: 900px; height: 70px; margin: 0 auto; line-height: 70px;}
+.policy li{width: auto; height: 70px; float: left; margin-right: 30px;}
+.policy li:last-child{margin-right: 0;}
+.bgg{color: #5fb34c;}
+
+.footer_box{width: 100%; height: 70px; background: #f9f8f6;}
+.footer_box_inner{width: 650px; height: 70px; margin: 0 auto;}
+.footer_box_inner li{width: auto; height: 70px; float: left; margin-right: 50px; line-height: 90px; text-align: center;}
+.footer_box_inner li:last-child{margin-right: 0;}
+.footer_logo{width: auto; height: auto; text-align: center; margin: 20px 0;}
+#ft1{text-align: center; margin: 20px 0; line-height: 20px;}
+#ft2{text-align: center; margin: 20px 0; color: #b1adab;}
+
+/*go top btn*/
+.goTop_btn{
+    background: #bdbdbd; color: #fff; width: 50px; height: 50px; 
+    border-radius: 50px; border: 1px solid #777; 
+    text-align: center; line-height: 50px;
+    position: fixed; bottom: 50px; right: 50px;
+    z-index: 999; display: none;
+}
+.goTop_btn:hover{background:#777;}
