@@ -1,0 +1,9 @@
+{
+    "title1" : ["데일리라이크", "힐링버드" ,"소버스","웨이크메이크"],
+
+    "list1" : [
+        {"img" : "3.jpg","alt" : "휴대용 어린이집낮잠이불(분리형)","priceOrigin" : "199,000원","priceSale" : "79,000원","iconFlag" : "세일"},
+        {"img" : "4.jpg","alt" : "아사이먼워싱 이불세트(패드+배개커버2)","priceOrigin" : "75,000원","priceSale" : "70,000원","iconFlag" : "쿠폰"},
+        {"img" : "5.jpg","alt" : "DPB이지 면패드-02","priceOrigin" : "58,000원","priceSale" : "48,000원","iconFlag" : "증정"},
+        {"img" : "6.jpg","alt" : "카카오프렌즈 사계절이불 - 03 리본라이언","priceOrigin" : "79,000원","priceSale" : "78,000원","iconFlag" : "오늘드림"}]
+}
