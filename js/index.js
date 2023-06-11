@@ -76,11 +76,11 @@ $(function(){
     $("#exhibition_coding .cp_line").addClass("lineblue")
     $("#exhibition_coding .coding_point").addClass("blue")
 
-    $('#section10 .cp_line').addClass('linepink');
-    $('#section10 .coding_point').addClass('pink');
+    $('#hana_coding .cp_line').addClass('linepink');
+    $('#hana_coding .coding_point').addClass('pink');
 
-    $('#section12 .cp_line').addClass('linegreen');
-    $('#section12 .coding_point').addClass('green');
+    $('#lush_coding .cp_line').addClass('linegreen');
+    $('#lush_coding .coding_point').addClass('green');
     
 
 
@@ -119,39 +119,19 @@ $(function(){
         $(this).children('img').addClass('on');
     });
 
-    //wave
 
-    // var cnt=document.getElementById("count"); 
-    // var water=document.getElementById("water");
-    // var percent=cnt.innerText;
-    // var interval;
-    // interval=setInterval(function(){ 
-    //   percent++; 
-    //   water.style.transform='translate(0'+','+(100-percent)+'%)';
-    //   if(percent==100){
-    //     clearInterval(interval);
-    //   }
-    // },60);
- 
-
-
-
-    //이미지화면 가운데->왼쪽으로 정렬
-
-    // $(window).on("scroll", onScroll);
-
-    // function onScroll(){
-    //     var scrollHeight=$(document).scrollTop()
-        
-    //     if(scrollHeight>=50){
-    //         $('.main_img').addClass("trans")
-    //     }
-    // }
-
-    $('.main_img').css({"left":"20%"})
-    
 
     //우측 네비게이션
+    // var menuHeight = document.querySelector("#menu").offsetHeight;
+    // var location = document.querySelector("#move").offsetTop;
+    // window.scrollTo({top:location-menuHeight,behavior:'smooth'});
+
+    // $("#menu>li").click(function(e){
+        
+    // })
+    $('.main_img').css({"left":"20%"})
+
+
     // $("#menu>li").click(function(e){
     //     $("#menu a").stop().animate({"opacity":"0"},300);
     //     $("#menu>li").removeClass("on");
@@ -213,7 +193,7 @@ $(function(){
     //     });
     // $("a.next").click(function)
     
-
+    //마우스 스크롤다운표시
     $('.buttonPosition a').click(function(e){
         e.preventDefault();
         var target = $(this).attr('href');
@@ -240,152 +220,4 @@ $(function(){
         $(".e_text").removeClass("pop_text");
     })
 
-
-
-    // text curved
-    // $.fn.circleType = function(options) {
-
-    //     var settings = {
-    //         dir: 1,
-    //         position: 'relative'
-    //     };
-    //     if (typeof($.fn.lettering) !== 'function') {
-    //         console.log('Lettering.js is required');
-    //         return;
-    //     }
-    //     return this.each(function () {
-        
-    //         if (options) { 
-    //             $.extend(settings, options);
-    //         }
-    //         var elem = this, 
-    //             delta = (180 / Math.PI),
-    //             ch = parseInt($(elem).css('line-height'), 10),
-    //             fs = parseInt($(elem).css('font-size'), 10),
-    //             txt = elem.innerHTML.replace(/^\s+|\s+$/g, '').replace(/\s/g, '&nbsp;'),
-    //             letters, 
-    //             center;
-            
-    //         elem.innerHTML = txt
-    //         $(elem).lettering();
-    
-    //         elem.style.position =  settings.position;
-    
-    //         letters = elem.getElementsByTagName('span');
-    //         center = Math.floor(letters.length / 2)
-                    
-    //         var layout = function () {
-    //             var tw = 0, 
-    //                 i,
-    //                 offset = 0,
-    //                 minRadius, 
-    //                 origin, 
-    //                 innerRadius,
-    //                 l, style, r, transform;
-                                                    
-    //             for (i = 0; i < letters.length; i++) {
-    //                 tw += letters[i].offsetWidth;
-    //             }
-    //             minRadius = (tw / Math.PI) / 2 + ch;
-                
-    //             if (settings.fluid && !settings.fitText) {
-    //                 settings.radius = Math.max(elem.offsetWidth / 2, minRadius);
-    //             }    
-    //             else if (!settings.radius) {
-    //                 settings.radius = minRadius;
-    //             }   
-                
-    //             if (settings.dir === -1) {
-    //                 origin = 'center ' + (-settings.radius + ch) / fs + 'em';
-    //             } else {
-    //                 origin = 'center ' + settings.radius / fs + 'em';
-    //             }
-    
-    //             innerRadius = settings.radius - ch;
-                    
-    //             for (i = 0; i < letters.length; i++) {
-    //                 l = letters[i];
-    //                 offset += l.offsetWidth / 2 / innerRadius * delta;
-    //                 l.rot = offset;                      
-    //                 offset += l.offsetWidth / 2 / innerRadius * delta;
-    //             }   
-    //             for (i = 0; i < letters.length; i++) {
-    //                 l = letters[i]
-    //                 style = l.style
-    //                 r = (-offset * settings.dir / 2) + l.rot * settings.dir            
-    //                 transform = 'rotate(' + r + 'deg)';
-                        
-    //                 style.position = 'absolute';
-    //                 style.left = '50%';
-    //                 style.marginLeft = -(l.offsetWidth / 2) / fs + 'em';
-    
-    //                 style.webkitTransform = transform;
-    //                 style.MozTransform = transform;
-    //                 style.OTransform = transform;
-    //                 style.msTransform = transform;
-    //                 style.transform = transform;
-    
-    //                 style.webkitTransformOrigin = origin;
-    //                 style.MozTransformOrigin = origin;
-    //                 style.OTransformOrigin = origin;
-    //                 style.msTransformOrigin = origin;
-    //                 style.transformOrigin = origin;
-    //                 if(settings.dir === -1) {
-    //                     style.bottom = 0;
-    //                 }
-    //             }
-                
-    //             if (settings.fitText) {
-    //                 if (typeof($.fn.fitText) !== 'function') {
-    //                     console.log('FitText.js is required when using the fitText option');
-    //                 } else {
-    //                     $(elem).fitText();
-    //                     $(window).resize(function () {
-    //                         updateHeight();
-    //                     });
-    //                 }
-    //             }    
-    //             updateHeight();
-    //         };
-            
-    //         var getBounds = function (elem) {
-    //             var docElem = document.documentElement,
-    //                 box = elem.getBoundingClientRect();
-    //             return {
-    //                 top: box.top + window.pageYOffset - docElem.clientTop,
-    //                 left: box.left + window.pageXOffset - docElem.clientLeft,
-    //                 height: box.height
-    //             };
-    //         };        
-            
-    //         var updateHeight = function () {
-    //             var mid = getBounds(letters[center]),
-    //                 first = getBounds(letters[0]),
-    //                 h;
-    //             if (mid.top < first.top) {
-    //                 h = first.top - mid.top + first.height;
-    //             } else {
-    //                 h = mid.top - first.top + first.height;
-    //             }
-    //             elem.style.height = h + 'px';  
-    //         }
-    
-    //         if (settings.fluid && !settings.fitText) {
-    //             $(window).resize(function () {
-    //                 layout();
-    //             });
-    //         }    
-    
-    //         if (document.readyState !== "complete") {
-    //             elem.style.visibility = 'hidden';
-    //             $(window).load(function () {
-    //                 elem.style.visibility = 'visible';
-    //                 layout();
-    //             });
-    //         } else {
-    //             layout();
-    //         }
-    //     });
-    // };
-    // $('#curved2').circleType({position: 'absolute', dir: 1, radius: 200});
 });
